@@ -9,7 +9,6 @@ public:
         x = date_x;
         y = date_y;
     }
-    int value = 10;
     void message (){
         std::cout<<"class Rectangle is working"<<std::endl;;
     }
