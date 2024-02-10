@@ -1,19 +1,20 @@
+#ifndef RECTANGLE_H
+#define RECTANGLE_H
+
 #include <iostream>
 
 
 class Rectangle{
 
 public:
-    
-    Rectangle (float date_x, float date_y) {
+
+    Rectangle (float date_x = 0, float date_y = 0) {
         x = date_x;
         y = date_y;
     }
-    void message (){
-        std::cout<<"class Rectangle is working"<<std::endl;;
-    }
-    int get_x(){
-        return x;
+
+    void is_working(){
+        std::cout<<"class Rectangle is working"<<std::endl;
     }
 
 private:
@@ -24,4 +25,4 @@ protected:
    
 };
 
-
+#endif
