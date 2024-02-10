@@ -13,14 +13,17 @@ public:
         y = date_y;
     }
 
-    void is_working(){
+    void is_working() {
         std::cout<<"class Rectangle is working"<<std::endl;
     }
-    int get_perimeter(){
+    int get_perimeter() {
         return (x+y)*2;
     }
-    int get_square(){
+    int get_square() {
         return x*y;
+    }
+    int get_volume(float height = 0) {
+        return height * get_square();
     }
 private:
     float x;
