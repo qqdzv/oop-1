@@ -3,6 +3,6 @@
 
 
 int main(){
-    Rectangle s = Rectangle();
-    std::cout<<s.get_x();
+    Rectangle s = Rectangle(20,1);
+    std::cout<<s.get_square();
 }
